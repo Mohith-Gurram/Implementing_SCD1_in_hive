@@ -1,11 +1,11 @@
 This is the project which is based on the concept of Hadoop, Sqoop, Hive,Sql and Shell Scripting. In this project, SCD-1 logic is implemented using shell scripting, hive and Sqoop.
 
-Pictorial Presentation of Project
+# Pictorial Presentation of Project
 ![PRJ](https://user-images.githubusercontent.com/107995926/175781084-30b27f94-104b-4ca9-945c-ee7ddce15bbb.jpeg)
 
 
 
-Description
+# Description
 
 In this project Data is sent by the client everyday in CSV format. So load all the data in MySQL everyday and then export it to HDFS. From there load the Data to hive
 and do the partioning on Year and Month and implement SCD Type-1 Logic and then load the data for Data reconcilation so that no loss of data takes place at any day.
@@ -13,7 +13,7 @@ and do the partioning on Year and Month and implement SCD Type-1 Logic and then 
 
 
 
-About SCD Type-1
+# About SCD Type-1
 
 SCD Stands for Slowly changing dimensions.
 
@@ -23,7 +23,7 @@ This method overwrites the old data in the dimension table with the new data. It
 
 
 
-Approach
+# Approach
 
 1.First I transfer all the datasets to Virtual machine on my system using WinSCP.
 
